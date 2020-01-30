@@ -1,0 +1,36 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/bplavinskis/RTR108
+    4  ls -l
+    5  cd RTR108/
+    6  ls -l
+    7  chmod 744 git-upload 
+    8  ls -l
+    9  ./git-upload 20200130_12_56
+   10  mkdir darbi
+   11  cd darbi/
+   12  cd ..
+   13  python
+   14  ipython
+   15  nano python_tests.py
+   16  python python_tests.py
+   17  nano python_tests.py
+   18  python python_tests.py
+   19  python -- version
+   20  python --version
+   21  cp python_tests.py python_tests_auto_exe.py 
+   22  nano python_tests_auto_exe.py 
+   23  ls -l
+   24  ls -l /usr/bin/python
+   25  ls -l
+   26  chmod 744 python_tests_auto_exe.py 
+   27  mv python_tests_auto_exe.py python_tests_auto_exe
+   28  ls -l
+   29  ./python_tests_auto_exe 
+   30  idle &
+   31  ls -la
+   32  fg 1
+   33  fg 3173
+   34  nano python_tests_auto_exe 
+   35  python -m http.server 8000
+   36  history > history_20200130.txt
