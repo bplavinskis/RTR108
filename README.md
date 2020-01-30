@@ -1,2 +1,2 @@
 # RTR108
-Linux &amp; Python
+Datormācību (speckurss) elektroniskā klade
