@@ -1,0 +1,13 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  top
+    4  htop
+    5  py -m libidle
+    6  python -m libidle
+    7  python -m idlelib
+    8  exit
+    9  idle &
+   10  ls -l
+   11  rm ngrok 
+   12  ls -l
+   13  history > history_20200206.txt
