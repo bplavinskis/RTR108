@@ -19,6 +19,21 @@ ps -aux			- kip rāda aktīvos procesus
 ps -aux | grep 8000	- atlasa tos aktīvos, kas satur 8000  
 kill ####		- servera apturēšana (#### vietā attiecīgais nr. no ps -aux) 
 (ja mape satur index.html tad tiek attēlots šī faila saturs, nevis mapes...)
-py4e.com - pirmie 8 tēmas  
+py4e.com - pirmās 8 tēmas  
   
+**			- operācija izpilda kāpināšanu  
+n//m			- n dalot ar m veselais iegūtais skaitlis   
+n%m			- n dalot ar m atlikums
+==			- salīdzina vai ir vienāds (pārējais ir līdzīgs kā C) var arī 'is' vai 'is not'  
+and or not		- loģikas operatori  
+pass			- neko nedara (var itkt izmantots if'ā vai for'ā)  
+elif			- else if  
+input('Ievadiet x:')	- pieprasa ievadīt vērtību X'am  
+try: except:		- ja 'try' izpildās, tad 'except' neizpildās, un otrādi  
+type()			- parāda datu tipu (bet neizvada ja nav iekš print() )  
+len()			- pasaka cik string'ā ir simbolu  
+max()	min()		- izvada stringa augstākās/zemākās vērtības simbolu  
+int()			- pārveido skaitli iekavās par veselu  
+float()			- pārveido skaitli iekavās par decimālskaitli
+import math		- lai varētu izmantot matemātiskas funkcijas, piem. moduli  
   
