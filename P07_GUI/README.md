@@ -2,6 +2,8 @@
 
 **Veiktās izmaiņas:**  
 no:  
+![alt text](https://github.com/bplavinskis/RTR108/blob/master/P07_GUI/bilde1.PNG)  
+
 >   buttons = {  
        "7": (0, 0),  
        "8": (0, 1),  
@@ -30,6 +32,8 @@ un
 >   self.setFixedSize(235, 235)  
 >  
 uz:  
+![alt text](https://github.com/bplavinskis/RTR108/blob/master/P07_GUI/bilde2.PNG)  
+
 >   buttons = {  
        "C": (0, 0),  
        "/": (0, 1),  
