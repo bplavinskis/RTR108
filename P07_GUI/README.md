@@ -60,7 +60,8 @@ un
 
 >   self.setFixedSize(195, 275)  
 >   
-**un**
->       if btnText=="0" :  
-           self.buttons[btnText].setFixedSize(85, 40)  
+ar
+
+>   if btnText=="0" :  
+       self.buttons[btnText].setFixedSize(85, 40)  
 >
