@@ -25,7 +25,7 @@ no
        "=": (3, 4),  
    }  
 un  
-   self.setFixedSize(235, 235)  
+>   self.setFixedSize(235, 235)  
   
 uz
   
@@ -51,6 +51,6 @@ uz
        "=": (4, 3),  
    }  
 un  
-   self.setFixedSize(195, 275)  
+>   self.setFixedSize(195, 275)  
    
    
