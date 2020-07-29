@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head> <title>B16</title></head>
+<body>
+<script>
+
+<!--Bruno Pļavinskis, bp18012B16. 
+<!--Dots 6 reāli skaitļi, kas nosaka 2 trīsstūru malu garumus.Noteikt, 
+<!--kuram no dotajiem trīsstūriem ir lielāks laukums(izmantojot funkciju, kas aprēķina trīsstūra laukumu pēc 3 dotajām malām).
+<!--Programma izveidota: 2018/10/24
+
+//Funkcija, kas aprēķina laukumu.
+function laukums(x, y, z){
+    return 0,25 * Math.sqrt((x+y+z)*(x+y-z)*(x+z-y)*(y+z-x));
+}
+
+    var y=1;          // vajadzīgs lai atkārtoti palaistu darbības.
+    var a,b,c,d,e,f;  // nodefinē 6 mainīgos, kas būs trīsstūra malas garumi.
+    var s1=0, s2=0;   // mainīgie, kas sevī glabās trīsstūra laukuma vērtības.
+
+do{
+    {window.alert("Ludzu ievadiet pirma trisstura malu garumus.")};
+        a = Number(prompt("Prima trisstura vienas malas garums",""));
+		b = Number(prompt("Prima trisstura otras malas garums",""));
+		c = Number(prompt("Prima trisstura tresas malas garums",""));
+    {window.alert("Ludzu ievadiet otra trisstura malu garumus.")};
+        d = Number(prompt("Otra trisstura pirmas malas garums",""));
+		e = Number(prompt("Otra trisstura otras malas garums",""));
+		f = Number(prompt("Otra trisstira tresas malas garums",""));
+
+    // ja ievadītie skaitļi nebūs pazitīvi, cikls neizpildīsies
+    if(a>0 && b>0 && c>0 && d>0 && e>0 && f>0){
+
+        if(a+b>c && b+c>a && a+c>b){      //pārbauda vai ievadītie malu garumi veido pirmo trīsstūri.
+
+            var s1 = laukums(a,b,c);
+
+            if(d+e>f && e+f>d && d+f>e){  //pārbauda vai ievadītie malu garumi veido otro trīsstūri.
+
+                var s2 = laukums(d,e,f);
+
+                //salīdzina laukumus.
+                if(s1>s2) window.alert("Pirma trijstara laukums ir lielaks.");
+                if(s1<s2) window.alert("Otra trijstura laukums ir lielaks.");
+                if(s1===s2) window.alert("Trijsturu laukumi ir vienadi.");
+
+            } else window.alert("Dotie malu garumi neveido otro trissturi.");
+        } else window.alert("Dotie malu garumi neveido pirmo trissturi.");
+
+    } else window.alert("Ievades kļūda!");
+y = Number(prompt("Vai atkartot programmu? Y[1] N[0]",""));
+}while(y!=0);
+</script>
+</body>
+</html>
